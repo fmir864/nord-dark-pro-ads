@@ -3,7 +3,9 @@
     "displayName": "Nord Dark Pro",
     "description": "Nord Dark Pro theme for Azure Data Studio",
     "publisher": "fmir864",
-    "version": "0.0.1",
+    "author": "FM Irshad",
+    "repository": "https://github.com/fmir864/nord-dark-pro-ads",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.39.0",
         "azdata": "*"
@@ -11,6 +13,7 @@
     "categories": [
         "Themes"
     ],
+    "icon": "assets/icon.png",
     "contributes": {
         "themes": [
             {
