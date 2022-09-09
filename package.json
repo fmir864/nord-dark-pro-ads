@@ -1,0 +1,28 @@
+{
+    "name": "nord-dark-pro-ads",
+    "displayName": "Nord Dark Pro",
+    "description": "Nord Dark Pro theme for Azure Data Studio",
+    "publisher": "fmir864",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.39.0",
+        "azdata": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nord Dark Pro",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nord-dark-pro-color-theme.json"
+            },
+            {
+                "label": "Nord Dark Pro Darker",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nord-dark-pro-darker-color-theme.json"
+            }
+        ]
+    }
+}
